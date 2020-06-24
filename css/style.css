@@ -1,0 +1,410 @@
+/* HW_17_section */
+.inline-block {
+  display:inline-block;
+  vertical-align:top;
+}
+.content h2{
+  padding-left:50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(rgb(207, 47, 47),rgb(49, 10, 224) );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo {
+  margin:4px 0 0 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logo img{
+  width:50px;
+  margin-top:5px;
+}
+nav.inline-block{
+  padding-right: 40px ;
+  
+}
+body{
+  margin-right:-14px;
+}
+.Navigation{
+  width: 100%;
+}
+.inline-block a{
+  padding-left: 30px ;
+
+}
+.content{
+  width:800px;
+  margin:0 auto;
+  padding: 20px;
+
+}
+.content .myProfilePic{
+  padding:10px 0 20px 200px;
+  
+}
+.content p{
+  padding:10px 0 10px 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+ 
+}
+.Navigation{
+  display:flex;
+  background-color:#30CFD0; 
+  height:60px;
+  justify-content: space-between;
+}
+body{
+  margin-right:-25px;
+}
+.resume-header{
+  font-size: 16px;
+  font-weight: bold ;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+.resume-section{
+  width:120px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-container{
+  display:flex;
+  justify-content: flex-end;
+}
+.heroImg {
+    padding:25px;   
+  }
+
+/* HW_18_Section */
+
+.mySkills h1{
+  padding:10px;
+  margin:30px 10px 10px 30px;
+}
+
+.flexContainer{
+  
+  flex-basis:auto;
+  display:flex;
+  align-items: center;
+  margin:10px auto;
+  justify-content: center;
+}
+.Skills-expert{
+  padding:0;
+   margin:0;
+}
+.Skills{
+  outline-style:solid; 
+  outline-style: dotted;
+   outline-width:1px;
+   padding:50px;
+   margin:0 10px;
+   height: 350px;
+  
+}
+.Skills ul{
+  width:auto;
+  margin-left:auto;
+}
+.Skills li {
+ padding:0;
+
+}
+.mySkills h1{
+  margin-left:32%;
+}
+.myWork h1{
+  margin-left:32%;
+  /* padding:20px; */
+}
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+}
+.workGrid{
+  margin:0px 32%;
+  display:grid; 
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 caseStudy1"
+  "img2 caseStudy2"
+  "img3 caseStudy3";
+ background-color: rgb(256, 256, 250);
+}
+.caseStudy1 {
+  
+  grid-area: caseStudy1;
+  padding:30px;
+  align-items: center;
+}
+.skillsSet{
+  align-content: center;
+}
+.caseStudy2{
+  grid-area: caseStudy2;
+  margin-top: 10px;
+  padding:30px;
+  align-items: center;
+}
+.caseStudy3{
+  grid-area: caseStudy3;
+   margin:auto;
+  padding: 30px;
+  align-items: center;
+}
+.C1Image{
+  grid-area: img1;
+  width: 100%;  
+  max-width: 250px;
+  display: block;
+  
+ 
+}
+.C2Image{
+  grid-area: img2;
+  max-width: 250px;
+  display: block;
+}
+.C3Image {
+  grid-area: img3;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+}
+
+h4{
+  align-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+footer{
+  display:flex;
+  background-color: #30CFD0; 
+  width:100vw;
+  box-sizing: border-box;
+  Height:200px;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer-contact{
+  margin:5px 0 0 0;
+  display:inline-block;
+  list-style: none;
+  font-size: 18px;
+
+}
+.footer-social-icons   {
+display:inline-block;
+ padding:4px 13px;
+ list-style: none;
+ justify-content: flex-end;
+ 
+}
+
+.footer-ul{
+  margin:0 0 0 1500px;
+}
+.share{
+  font-size: 18px;
+  list-style: none;
+  justify-content: flex-end;
+  margin-left: -50px;
+ 
+}
+.footer-inline-block{
+  list-style: none;
+  font-size: 18px;
+}
+.footer-p{
+  vertical-align: baseline;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 175px;
+  position: absolute;
+  right: 50%;
+  
+}
+.footer-p2{
+  vertical-align: baseline;
+  font-size: 8px;
+  font-weight: lighter;
+  margin-top: 175px;
+  display:none;
+  margin-left:40px;
+}
+
+/* *{outline: solid 1px red;} */
+
+@media only screen and (max-width: 600px){
+ 
+  /* About Me Session */
+  .content h2{
+    padding-left: 0;
+  }
+
+  .heroImg{
+    display:column;
+  }
+  .content{
+    width:200px;
+    margin:0 auto;
+    padding: 10px;
+  
+  }
+  .content .myProfilePic{
+    padding:5px 0 10px 100px;
+    width: 50px;
+    
+  }
+  .content p{
+    padding:10px 0 5px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 1.5;
+   
+  }
+  /* Skill session- flex container */
+  .flexContainer{
+    flex-direction:column;
+    background-color :red;
+    ;
+  }
+  .mySkills h1{
+    margin-left:0;
+  }
+  /* myWork session- Grid container */
+.workGrid{
+  margin:0px 15%;
+  display:grid; 
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "img1 caseStudy1"
+  "img2 caseStudy2"
+  "img3 caseStudy3";
+ background-color: rgb(256, 256, 250);
+ 
+}
+.myWork h1{
+  margin-left:0;
+}
+.caseStudy1 {
+  
+  grid-area: caseStudy1;
+  padding:10px;
+  align-items: center;
+}
+.skillsSet{
+  align-content: center;
+}
+.Skills{
+  outline-style:solid; 
+  outline-style: dotted;
+   outline-width:1px;
+   padding:10px 30px;
+   margin:0 10px;
+   height: auto; 
+  
+}
+.caseStudy2{
+  grid-area: caseStudy2;
+  margin-top: 5px;
+  padding:10px;
+  align-items: center;
+}
+.caseStudy3{
+  grid-area: caseStudy3;
+   margin:auto;
+  padding: 10px;
+  align-items: center;
+}
+.C1Image{
+  grid-area: img1;
+  /* margin-right: 60px; */
+  /* width: 100%;
+  max-width: 125px; */
+  /* margin: 0 auto; */
+  display: block;
+  width:75px; 
+}
+.C2Image{
+  grid-area: img2;
+  max-width: 125px;
+  display: block;
+  width:75px; 
+}
+.C3Image {
+  grid-area: img3;
+  max-width: 125px;
+  display: block;
+  margin-left: auto;
+  width:75px; 
+}
+.C11Image{
+  margin-left: auto;
+  width:75px; 
+}
+
+h4{
+  align-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 350px;
+}
+footer{
+  display: block;
+  background-color: #30CFD0; 
+  width:100vw;
+  Height:100px;
+}
+.footer-social-icons   {
+  display:inline-block;
+   padding:4px 13px;
+   list-style: none;
+  }
+  .footer-p{
+    vertical-align: baseline;
+    font-size: 4px;
+    font-weight: lighter;
+    display:none; 
+    
+  }
+  .footer-ul{
+    margin:0 0 0 0;
+  }
+  .footer-p2{
+    font-size: 8px;
+    font-weight: lighter;
+    margin-top: 50px;
+    display:block;
+  }
+  
+  
+ 
+}/*end of media query*/
+
+
