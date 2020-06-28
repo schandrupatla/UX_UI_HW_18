@@ -26,6 +26,7 @@ nav.inline-block{
   padding-right: 40px ;
   
 }
+
 body{
   margin-right:-14px;
 }
@@ -344,10 +345,6 @@ display:inline-block;
 }
 .C1Image{
   grid-area: img1;
-  /* margin-right: 60px; */
-  /* width: 100%;
-  max-width: 125px; */
-  /* margin: 0 auto; */
   display: block;
   width:75px; 
 }
